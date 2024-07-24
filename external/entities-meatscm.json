@@ -1,0 +1,1169 @@
+{
+  "command": "SELECT",
+  "rowCount": 149,
+  "oid": null,
+  "rows": [
+    {
+      "code": "Ajinomoto",
+      "name": "Ajinomoto",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "BCD",
+      "name": "BCD",
+      "type": "CS",
+      "hq": null,
+      "num": "3"
+    },
+    {
+      "code": "Harris Ranch",
+      "name": "Harris Ranch",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Kyoei",
+      "name": "Kyoei",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Champion'sCurry",
+      "name": "Champion's Curry",
+      "type": "CS",
+      "hq": "ChampCurry HQ",
+      "num": "0"
+    },
+    {
+      "code": "Silver Fern",
+      "name": "Silver Fern Farms",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Huy Fong",
+      "name": "Huy Fong Food",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Korea",
+      "name": "Korea",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "NBP",
+      "name": "National Beef Packing",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "SMK Foods",
+      "name": "SMK Foods, Inc",
+      "type": "DT",
+      "hq": null,
+      "num": "3"
+    },
+    {
+      "code": "C&H",
+      "name": "C&H",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "NIPPN",
+      "name": "NIPPN California, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Ovation NZ",
+      "name": "Ovation New Zealand",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Wismettac",
+      "name": "Wismettac Asian Foods",
+      "type": "DT",
+      "hq": null,
+      "num": "3"
+    },
+    {
+      "code": "Pulmuone",
+      "name": "Pulmuone",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "제니스",
+      "name": "제니스 유통",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Keystone Meat",
+      "name": "Keystone Meat Solution",
+      "type": "PR",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Masami",
+      "name": "Masami",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Orange 92704",
+      "name": "ORANGE SANTA ANA 92704",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "JBS",
+      "name": "JBS",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "BlueRose",
+      "name": "BlueRose",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Gourmet Food",
+      "name": "Gourmet Food Solution",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "GoFresh",
+      "name": "GoFresh, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Aloha 90640",
+      "name": "ALOHA BBQ 90640",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Mishima Reserve",
+      "name": "Mishima Reserve",
+      "type": "PR",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Selleton",
+      "name": "Selleton Scales",
+      "type": "PR",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Sunrise Food",
+      "name": "Sunrise Food",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Du Breton",
+      "name": "Du Breton",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Day-Lee Export",
+      "name": "Day-Lee Foods Export",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Palama",
+      "name": "Palama Holding, LLC",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Loham-R",
+      "name": "Loham-R",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Costa Brava",
+      "name": "Costa Brava",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "NSTA Foods",
+      "name": "NSTA Foods",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Universal",
+      "name": "Universal Seafood",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Gangnam House",
+      "name": "Gangnam House 90621",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Test Factory",
+      "name": "(Test Factory)",
+      "type": "PR",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "DemKota",
+      "name": "DemKota Beef",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Nippon",
+      "name": "Nippon California, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "P & B",
+      "name": "P & B Distribution",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Aquamar",
+      "name": "Aquamar",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Crossing",
+      "name": "Crossing Storage Service",
+      "type": "PR",
+      "hq": null,
+      "num": "2"
+    },
+    {
+      "code": "CJ",
+      "name": "CJ",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "SASA",
+      "name": "Sonora Agropecuaria",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Test Dist",
+      "name": "Golden State Meats",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "TWB ID",
+      "name": "True West Beef",
+      "type": "PR",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Sioux Preme",
+      "name": "Sioux Preme",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Cafe Plain",
+      "name": "Cafe Plain",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Aloha 92691",
+      "name": "ALOHA BBQ 92691",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "STF",
+      "name": "STF Restaurants",
+      "type": "CS",
+      "hq": null,
+      "num": "12"
+    },
+    {
+      "code": "Blue Ribbon Pr",
+      "name": "Blue Ribbon Processing",
+      "type": "PR",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Loham FS",
+      "name": "Loham Food Service",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "BCD-STF",
+      "name": "BCD-STF",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Test Customer",
+      "name": "(Test Consumer)",
+      "type": "CS",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Leyen",
+      "name": "Leyen Food, LLC",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Farmer Johns",
+      "name": "Farmer Johns",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Cheongjungwon",
+      "name": "Cheongjungwon",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Teys",
+      "name": "Teys",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "DongWon",
+      "name": "Dong Won",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "AnF",
+      "name": "A&F Exports, Inc",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Bee Bee",
+      "name": "Bee Bee Food",
+      "type": "PR",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Amigogi 91763",
+      "name": "AMIGOGI KOREAN BBQ 91763",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Day-Lee",
+      "name": "Day-Lee Foods, Inc.",
+      "type": "DT",
+      "hq": "Day-Lee HQ",
+      "num": "2"
+    },
+    {
+      "code": "Gabriel",
+      "name": "Gabriel Box",
+      "type": "PR",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "RW Zant",
+      "name": "RW Zant Distribution",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Quad Play",
+      "name": "Quad Play",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Mutual",
+      "name": "Mutual Trading Co.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Sysco",
+      "name": "Sysco",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Wise Universal",
+      "name": "Wise Universal, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "CLA Trading",
+      "name": "CLA Trading, Inc.",
+      "type": "DT",
+      "hq": "CLA Trading HQ",
+      "num": "1"
+    },
+    {
+      "code": "Bona Prime",
+      "name": "Bona Prime",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Mecca Halal",
+      "name": "Mecca Halal Meats",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Pini",
+      "name": "Pini Meat Packing, Hungary",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Hansen",
+      "name": "Hansen Distribution Group",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Swift",
+      "name": "Swift",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "MrTeriya 90680",
+      "name": "MR. TERIYAKI 90680",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "BNP Food",
+      "name": "BNP Food Co., Ltd.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "UNTD",
+      "name": "UNTD, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Century Intl",
+      "name": "Century International Foods",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "QuikBowl 90627",
+      "name": "QUIK BOWL 90627",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Loham-Ace",
+      "name": "Loham-Ace",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "SMK Destination",
+      "name": "SMK Shipping Destination",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "PIP",
+      "name": "Premium Iowa Pork",
+      "type": "PR",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Loham Storage",
+      "name": "Loham Storage",
+      "type": "DT",
+      "hq": "Loham Storage",
+      "num": "4"
+    },
+    {
+      "code": "Exclusive",
+      "name": "The Exclusive Poultry",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Tomoe",
+      "name": "Tomoe Food",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "APD",
+      "name": "American Products Distributor",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Greater Omaha",
+      "name": "Greater Omaha",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "ATM",
+      "name": "ATM",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Pacific",
+      "name": "Pacific Global Distribution, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Cypress",
+      "name": "Cypress International Trading",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Yamasa",
+      "name": "Yamasa",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "King",
+      "name": "King",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Simplot",
+      "name": "Simplot",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "BomBom 90706",
+      "name": "BOM BOM GRILL 90706",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Harim",
+      "name": "Harim",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "TAWA",
+      "name": "99 Ranch Market",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Weee",
+      "name": "Sayweee.com",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "LKK",
+      "name": "LKK",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Senryo",
+      "name": "Senryo",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "ZZZ Extra Sales",
+      "name": "ZZZ Extra Sales",
+      "type": "CS",
+      "hq": null,
+      "num": "2"
+    },
+    {
+      "code": "Smithfield",
+      "name": "Smithfield Foods",
+      "type": "PR",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Harvest",
+      "name": "Harvest",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "PMI",
+      "name": "PMI",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "IBP",
+      "name": "IBP/Tyson",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Ito Ham",
+      "name": "Ito Ham",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Port of Call",
+      "name": "Port of Call",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Ace Meat",
+      "name": "Ace Meat",
+      "type": "PR",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Danish Crown",
+      "name": "Danish Crown",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Regal Trading",
+      "name": "Regal Trading",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Sempio",
+      "name": "Sempio",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Monarch",
+      "name": "Monarch Trading",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "FlameSteaks",
+      "name": "FlameSteaks",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Loham Export",
+      "name": "Loham Export",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Cargill",
+      "name": "Cargill Foods Distribution",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Koreana Grill",
+      "name": "Koreana Grill",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Weichuan",
+      "name": "Weichuan",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Y. Hata",
+      "name": "Y. Hata & Co., Ltd.",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Norson",
+      "name": "Norson",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "FOOMA  America",
+      "name": "Fooma America Inc",
+      "type": "PR",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Taylor Preston",
+      "name": "Taylor Preston",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "NB",
+      "name": "Nebraska Beef",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Suisan",
+      "name": "Suisan Co., Ltd.",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "House",
+      "name": "House Foods",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Hybco USA",
+      "name": "Hybco USA",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "STF Distributor",
+      "name": "STF Distributor",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Wright's Hickor",
+      "name": "Wright's Hickory",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "DFS",
+      "name": "DFS Co., Ltd.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Wangcho",
+      "name": "Wangcho Riverside",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Shinsengumi",
+      "name": "Shinsengumi",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Seaboard",
+      "name": "Seaboard Foods",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Upper Crust",
+      "name": "Upper Crust Enterprise, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "VIP Food",
+      "name": "VIP Food Services",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Ottogi",
+      "name": "Ottogi America",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "AFG",
+      "name": "American Foods Group",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Loham",
+      "name": "Loham, Inc.",
+      "type": "PR",
+      "hq": "Loham",
+      "num": "1"
+    },
+    {
+      "code": "CJ Freshway",
+      "name": "CJ Freshway America",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Ultra Source",
+      "name": "Ultra Source",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Ribbro BBQ",
+      "name": "Ribbro BBQ",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Emart",
+      "name": "Emart USA",
+      "type": "PR",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Ara 91702",
+      "name": "ARA SUSHI AZUSA 91702",
+      "type": "CS",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Washington Beef",
+      "name": "Washington Beef",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "JFC",
+      "name": "JFC International",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    },
+    {
+      "code": "Frontier",
+      "name": "Frontier",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Hunter",
+      "name": "Hunter Food, Inc.",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Haidilao",
+      "name": "Haidilao Hot Pot",
+      "type": "CS",
+      "hq": null,
+      "num": "5"
+    },
+    {
+      "code": "LF Food",
+      "name": "LF Food",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Iowa Premium",
+      "name": "Iowa Premium Beef",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "Central Valley",
+      "name": "Central Valley",
+      "type": "DT",
+      "hq": null,
+      "num": "0"
+    },
+    {
+      "code": "HFM",
+      "name": "HFM Food Service",
+      "type": "DT",
+      "hq": null,
+      "num": "1"
+    }
+  ],
+  "fields": [
+    {
+      "name": "code",
+      "tableID": 0,
+      "columnID": 0,
+      "dataTypeID": 25,
+      "dataTypeSize": -1,
+      "dataTypeModifier": -1,
+      "format": "text"
+    },
+    {
+      "name": "name",
+      "tableID": 0,
+      "columnID": 0,
+      "dataTypeID": 25,
+      "dataTypeSize": -1,
+      "dataTypeModifier": -1,
+      "format": "text"
+    },
+    {
+      "name": "type",
+      "tableID": 16509,
+      "columnID": 3,
+      "dataTypeID": 1042,
+      "dataTypeSize": -1,
+      "dataTypeModifier": 6,
+      "format": "text"
+    },
+    {
+      "name": "hq",
+      "tableID": 0,
+      "columnID": 0,
+      "dataTypeID": 25,
+      "dataTypeSize": -1,
+      "dataTypeModifier": -1,
+      "format": "text"
+    },
+    {
+      "name": "num",
+      "tableID": 0,
+      "columnID": 0,
+      "dataTypeID": 20,
+      "dataTypeSize": 8,
+      "dataTypeModifier": -1,
+      "format": "text"
+    }
+  ],
+  "_parsers": [null, null, null, null, null],
+  "_types": {
+    "_types": {
+      "arrayParser": {},
+      "builtins": {
+        "BOOL": 16,
+        "BYTEA": 17,
+        "CHAR": 18,
+        "INT8": 20,
+        "INT2": 21,
+        "INT4": 23,
+        "REGPROC": 24,
+        "TEXT": 25,
+        "OID": 26,
+        "TID": 27,
+        "XID": 28,
+        "CID": 29,
+        "JSON": 114,
+        "XML": 142,
+        "PG_NODE_TREE": 194,
+        "SMGR": 210,
+        "PATH": 602,
+        "POLYGON": 604,
+        "CIDR": 650,
+        "FLOAT4": 700,
+        "FLOAT8": 701,
+        "ABSTIME": 702,
+        "RELTIME": 703,
+        "TINTERVAL": 704,
+        "CIRCLE": 718,
+        "MACADDR8": 774,
+        "MONEY": 790,
+        "MACADDR": 829,
+        "INET": 869,
+        "ACLITEM": 1033,
+        "BPCHAR": 1042,
+        "VARCHAR": 1043,
+        "DATE": 1082,
+        "TIME": 1083,
+        "TIMESTAMP": 1114,
+        "TIMESTAMPTZ": 1184,
+        "INTERVAL": 1186,
+        "TIMETZ": 1266,
+        "BIT": 1560,
+        "VARBIT": 1562,
+        "NUMERIC": 1700,
+        "REFCURSOR": 1790,
+        "REGPROCEDURE": 2202,
+        "REGOPER": 2203,
+        "REGOPERATOR": 2204,
+        "REGCLASS": 2205,
+        "REGTYPE": 2206,
+        "UUID": 2950,
+        "TXID_SNAPSHOT": 2970,
+        "PG_LSN": 3220,
+        "PG_NDISTINCT": 3361,
+        "PG_DEPENDENCIES": 3402,
+        "TSVECTOR": 3614,
+        "TSQUERY": 3615,
+        "GTSVECTOR": 3642,
+        "REGCONFIG": 3734,
+        "REGDICTIONARY": 3769,
+        "JSONB": 3802,
+        "REGNAMESPACE": 4089,
+        "REGROLE": 4096
+      }
+    },
+    "text": {},
+    "binary": {}
+  },
+  "RowCtor": null,
+  "rowAsArray": false
+}
