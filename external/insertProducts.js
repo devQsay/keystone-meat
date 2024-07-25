@@ -1,50 +1,18 @@
 const fs = require("fs");
 const { Client } = require("pg");
+require("dotenv").config();
 
 // Database configuration (replace with your actual credentials)
 const dbConfig = {
-  user: "your_user",
-  host: "localhost",
-  database: "your_database",
-  password: "your_password",
-  port: 5432,
+  user: process.env.PG_USER,
+  host: process.env.PG_HOST,
+  database: process.env.PG_DATABASE,
+  password: process.env.PG_PASSWORD,
+  port: process.env.PG_PORT,
 };
 
 // Path to your JSON file
-const dataFile = "./data.json";
-
-// Function to create the table
-async function createTable() {
-  const client = new Client(dbConfig);
-
-  try {
-    await client.connect();
-
-    const createTableQuery = `
-      CREATE TABLE IF NOT EXISTS products (
-        id SERIAL PRIMARY KEY,
-        code VARCHAR(255) NOT NULL,
-        name VARCHAR(255) NOT NULL,
-        description TEXT,
-        manufacturer VARCHAR(255),
-        distributor VARCHAR(255),
-        category VARCHAR(255),
-        quantity REAL,
-        unit VARCHAR(50),
-        gtin VARCHAR(255),
-        avgqty REAL,
-        inuse BOOLEAN,
-        properties BIGINT
-      );
-    `;
-    await client.query(createTableQuery);
-    console.log("Table created successfully!");
-  } catch (err) {
-    console.error("Error creating table:", err);
-  } finally {
-    await client.end();
-  }
-}
+const dataFile = "./products-meatscm.json";
 
 // Function to insert data into the table
 async function insertData() {
@@ -53,10 +21,16 @@ async function insertData() {
   try {
     await client.connect();
 
-    // Read the JSON file
-    const data = JSON.parse(fs.readFileSync(dataFile, "utf8"));
+    // Read and filter the JSON data
+    const allProducts = JSON.parse(fs.readFileSync(dataFile, "utf8"));
 
-    for (const product of data) {
+    const keystoneProducts = allProducts.rows.filter(
+      (product) => product.manufacturer === "Keystone Meat"
+    );
+
+    for (const product of keystoneProducts) {
+      console.log("Inserting product:", product.code);
+
       const insertQuery = `
         INSERT INTO products (code, name, description, manufacturer, distributor, category, quantity, unit, gtin, avgqty, inuse, properties)
         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12);
@@ -88,6 +62,5 @@ async function insertData() {
 
 // Execute the functions
 (async () => {
-  await createTable();
   await insertData();
 })();
