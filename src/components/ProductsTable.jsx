@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import {
   Box,
-  Grid,
   InputAdornment,
   Paper,
   Table,
@@ -32,6 +31,22 @@ function ProductTable() {
     const fetchData = async () => {
       try {
         const response = await axios.get(API_URL);
+
+        // Remove the keys from response.data: Id, avgqty, inuse, Distributor, quantity, units
+        const filteredKeys = [
+          "avgqty",
+          "code",
+          "distributor",
+          "id",
+          "inuse",
+          "quantity",
+          "unit",
+        ];
+        response.data = response.data.map((product) => {
+          filteredKeys.forEach((key) => delete product[key]);
+          return product;
+        });
+
         setProducts(response.data);
       } catch (error) {
         console.error("Error fetching product data:", error);
