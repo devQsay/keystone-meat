@@ -12,6 +12,7 @@ import {
   Paper,
 } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
+import { ProductsTable } from "../components";
 
 function Dashboard() {
   // State for animal data
@@ -56,48 +57,52 @@ function Dashboard() {
   console.log("Animals are:", animals);
 
   return (
-    <Box sx={{ padding: 2 }}>
-      <Typography variant="h2" gutterBottom>
-        Inventory Overview
-      </Typography>
+    <>
+      <Box sx={{ padding: 2 }} id="testBoxArea">
+        <Typography variant="h2" gutterBottom>
+          Inventory Overview
+        </Typography>
 
-      <Grid container spacing={2}>
-        <Grid item xs={12}>
-          <TableContainer component={Paper}>
-            <Table>
-              <TableHead sx={{ backgroundColor: "rgba(0, 0, 0, 0.04)" }}>
-                <TableRow>
-                  <TableCell sx={{ fontWeight: "bold" }}>Animal ID</TableCell>{" "}
-                  <TableCell sx={{ fontWeight: "bold" }}>Breed</TableCell>{" "}
-                  <TableCell sx={{ fontWeight: "bold" }}>
-                    {" "}
-                    Live Weight (lbs)
-                  </TableCell>{" "}
-                  {/* Add more headers for other animal attributes */}
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {animals ? (
-                  animals.map((animal) => (
-                    <TableRow key={animal.id}>
-                      <TableCell>{animal.id}</TableCell>
-                      <TableCell>{animal.breed}</TableCell>
-                      <TableCell>{animal.weight}</TableCell>
-                    </TableRow>
-                  ))
-                ) : (
-                  <p> Sorry there are no animals. </p>
-                )}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        </Grid>
+        <Grid container spacing={2}>
+          <Grid item xs={12}>
+            <TableContainer component={Paper}>
+              <Table>
+                <TableHead sx={{ backgroundColor: "rgba(0, 0, 0, 0.04)" }}>
+                  <TableRow>
+                    <TableCell sx={{ fontWeight: "bold" }}>Animal ID</TableCell>{" "}
+                    <TableCell sx={{ fontWeight: "bold" }}>Breed</TableCell>{" "}
+                    <TableCell sx={{ fontWeight: "bold" }}>
+                      {" "}
+                      Live Weight (lbs)
+                    </TableCell>{" "}
+                    {/* Add more headers for other animal attributes */}
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {animals ? (
+                    animals.map((animal) => (
+                      <TableRow key={animal.id}>
+                        <TableCell>{animal.id}</TableCell>
+                        <TableCell>{animal.breed}</TableCell>
+                        <TableCell>{animal.weight}</TableCell>
+                      </TableRow>
+                    ))
+                  ) : (
+                    <p> Sorry there are no animals. </p>
+                  )}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </Grid>
 
-        <Grid item xs={12} md={8}>
-          <Box sx={{ height: 400 }}></Box>
+          <Grid item xs={12} md={8}>
+            <Box sx={{ height: 400 }}></Box>
+          </Grid>
         </Grid>
-      </Grid>
-    </Box>
+      </Box>
+
+      <ProductsTable />
+    </>
   );
 }
 
