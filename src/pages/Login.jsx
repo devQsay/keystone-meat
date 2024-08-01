@@ -4,6 +4,8 @@ import { useForm } from "react-hook-form";
 import { Box, Button, Container, TextField, Typography } from "@mui/material";
 import axios from "axios";
 
+const ROUTE = "/api/auth/login";
+
 function Login({ setUser }) {
   // Receive setUser to update authentication state
   const {
@@ -15,7 +17,9 @@ function Login({ setUser }) {
   const onSubmit = async (data) => {
     try {
       // Send login request to your backend API
-      const response = await axios.post("/api/auth/login", data);
+      const response = await axios.post(ROUTE, data);
+
+      console.log("Login response:", response.data);
 
       // Handle successful login
       setUser(response.data.user); // Update user state with the received user object
