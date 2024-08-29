@@ -33,6 +33,7 @@ function ProductTable() {
         const response = await axios.get(API_URL);
 
         // Remove the keys from response.data: Id, avgqty, inuse, Distributor, quantity, units
+        // TODO: Remove the keys from the response data
         const filteredKeys = [
           "avgqty",
           "code",

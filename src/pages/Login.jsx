@@ -1,13 +1,18 @@
-// client/src/components/Login.jsx
-import React from "react";
-import { useForm } from "react-hook-form";
-import { Box, Button, Container, TextField, Typography } from "@mui/material";
 import axios from "axios";
+import React from "react";
 
-const ROUTE = "/api/auth/login";
+import { Box, Button, Container, TextField, Typography } from "@mui/material";
+import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context";
 
-function Login({ setUser }) {
-  // Receive setUser to update authentication state
+const API_URL = "http://localhost:3002/api/auth/login/";
+
+function Login() {
+  const navigate = useNavigate();
+
+  const { setUser } = useAuth(); // Get the setUser function from the context
+
   const {
     register,
     handleSubmit,
@@ -16,16 +21,21 @@ function Login({ setUser }) {
 
   const onSubmit = async (data) => {
     try {
-      // Send login request to your backend API
-      const response = await axios.post(ROUTE, data);
-
+      const response = await axios.post(API_URL, data);
       console.log("Login response:", response.data);
 
-      // Handle successful login
-      setUser(response.data.user); // Update user state with the received user object
-      // You might want to redirect to the dashboard after successful login
+      sessionStorage.setItem("token", response.data.token); // Store token in sessionStorage
+
+      // Calculate expiry time (3 hours from now)
+      const expiresAt = new Date().getTime() + 3 * 60 * 60 * 1000;
+      sessionStorage.setItem("expiresAt", expiresAt);
+
+      setUser(response.data); // Update user state (assuming backend sends user data)
+      navigate("/"); // Redirect to dashboard
     } catch (error) {
       console.error("Login error:", error);
+      console.log("Full request path:", error.config.url);
+
       // Handle login errors (e.g., display error message)
     }
   };

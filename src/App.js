@@ -22,11 +22,12 @@ import {
   Settings,
 } from "./pages";
 
+import { AuthProvider } from "./context";
+
 import ProtectedRoute from "./routes/ProtectedRoute";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [user, setUser] = useState(null);
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
@@ -35,32 +36,34 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <Box sx={{ display: "flex" }}>
-          {" "}
-          {/* Main container is flex for horizontal layout */}
-          <CssBaseline />
-          {/* Sidebar in its own flex item */}
-          <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
-          <Box sx={{ flexGrow: 1, display: "flex", flexDirection: "column" }}>
-            <Header toggleSidebar={toggleSidebar} />
-            <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-              <Routes>
-                <Route path="/login" element={<Login setUser={setUser} />} />
-                <Route element={<ProtectedRoute user={user} />}>
-                  <Route path="/" element={<Dashboard />} />
-                  <Route path="/animals" element={<Animals />} />
-                  <Route path="/customers" element={<Customers />} />
-                  <Route path="/orders" element={<Orders />} />
-                  <Route path="/inventory" element={<Inventory />} />
-                  <Route path="/reports" element={<Reports />} />
-                  <Route path="/settings" element={<Settings />} />
-                </Route>
-                <Route path="*" element={<Navigate to="/login" replace />} />{" "}
-                {/* Redirect to login for unknown routes */}
-              </Routes>
+        <AuthProvider>
+          <Box sx={{ display: "flex" }}>
+            {" "}
+            {/* Main container is flex for horizontal layout */}
+            <CssBaseline />
+            {/* Sidebar in its own flex item */}
+            <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
+            <Box sx={{ flexGrow: 1, display: "flex", flexDirection: "column" }}>
+              <Header toggleSidebar={toggleSidebar} />
+              <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+                <Routes>
+                  <Route path="/login" element={<Login />} />
+                  <Route element={<ProtectedRoute />}>
+                    <Route path="/" element={<Dashboard />} />
+                    <Route path="/animals" element={<Animals />} />
+                    <Route path="/customers" element={<Customers />} />
+                    <Route path="/orders" element={<Orders />} />
+                    <Route path="/inventory" element={<Inventory />} />
+                    <Route path="/reports" element={<Reports />} />
+                    <Route path="/settings" element={<Settings />} />
+                  </Route>
+                  <Route path="*" element={<Navigate to="/login" replace />} />{" "}
+                  {/* Redirect to login for unknown routes */}
+                </Routes>
+              </Box>
             </Box>
           </Box>
-        </Box>
+        </AuthProvider>
       </Router>
     </ThemeProvider>
   );
